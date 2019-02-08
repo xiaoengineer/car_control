@@ -1,0 +1,11 @@
+Change Component Footprint: Designator=X1 Old Footprint=XTAL-3X10 New Footprint=XTAL-49S SMD
+Added Component: Designator=LM7805_1(LC-TO-220(TO-220-3))
+Added Component: Designator=LM7805_2(LC-TO-220(TO-220-3))
+Added Pin To Net: NetName=11V Pin=LM7805_1-1
+Added Pin To Net: NetName=GND Pin=LM7805_1-2
+Added Pin To Net: NetName=5VS Pin=LM7805_1-3
+Added Pin To Net: NetName=11V Pin=LM7805_2-1
+Added Pin To Net: NetName=GND Pin=LM7805_2-2
+Added Pin To Net: NetName=POWER_SERVO Pin=LM7805_2-3
+Added Member To Class: ClassName=car Member=Component LM7805_1 LM7805
+Added Member To Class: ClassName=car Member=Component LM7805_2 LM7805

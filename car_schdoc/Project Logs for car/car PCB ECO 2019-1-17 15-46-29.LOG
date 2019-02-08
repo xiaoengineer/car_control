@@ -1,0 +1,21 @@
+Added Component: Designator=A4950E(LC-SOIC-8_EP_150mil)
+Added Component: Designator=A4950(LC-SOIC-8_EP_150mil)
+Added Pin To Net: NetName=GND Pin=A4950-1
+Added Pin To Net: NetName=PB9 Pin=A4950-2
+Added Pin To Net: NetName=PB8 Pin=A4950-3
+Added Pin To Net: NetName=5VS Pin=A4950-4
+Added Pin To Net: NetName=11V Pin=A4950-5
+Added Pin To Net: NetName=O1 Pin=A4950-6
+Added Pin To Net: NetName=NetA4950_7 Pin=A4950-7
+Added Pin To Net: NetName=O2 Pin=A4950-8
+Added Pin To Net: NetName=GND Pin=A4950E-1
+Added Pin To Net: NetName=PB7 Pin=A4950E-2
+Added Pin To Net: NetName=PB6 Pin=A4950E-3
+Added Pin To Net: NetName=5VS Pin=A4950E-4
+Added Pin To Net: NetName=11V Pin=A4950E-5
+Added Pin To Net: NetName=O3 Pin=A4950E-6
+Added Pin To Net: NetName=NetA4950E_7 Pin=A4950E-7
+Added Pin To Net: NetName=O4 Pin=A4950E-8
+Added Member To Class: ClassName=car Member=Component A4950E U2
+Added Member To Class: ClassName=car Member=Component A4950 U1
+Added Room: Name=car

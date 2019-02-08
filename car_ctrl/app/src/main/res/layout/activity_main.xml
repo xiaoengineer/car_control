@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    >
+    <TableRow android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/button4"
+                    style="@android:style/Widget.DeviceDefault.Button.Inset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="灯"
+                    tools:layout_editor_absoluteX="267dp"
+                    tools:layout_editor_absoluteY="147dp" />
+
+                <Button
+                    android:id="@+id/button5"
+                    style="@android:style/Widget.DeviceDefault.Button.Inset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="蜂鸣器"
+                    tools:layout_editor_absoluteX="179dp"
+                    tools:layout_editor_absoluteY="147dp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/button2"
+                    style="@android:style/Widget.DeviceDefault.Button.Inset"
+                    android:layout_width="88dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="左转向"
+                    tools:layout_editor_absoluteX="267dp"
+                    tools:layout_editor_absoluteY="195dp" />
+
+                <Button
+                    android:id="@+id/button3"
+                    style="@android:style/Widget.DeviceDefault.Button.Inset"
+                    android:layout_width="89dp"
+                    android:layout_height="wrap_content"
+                    android:text="右转向"
+                    tools:layout_editor_absoluteX="178dp"
+                    tools:layout_editor_absoluteY="195dp" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="174dp"
+            android:layout_height="92dp"
+            android:background="@android:color/holo_green_light"
+            android:text="显示" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/imagebutton"
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/left" />
+
+        <ImageButton
+            android:id="@+id/imagebutton1"
+            android:layout_width="00dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/right" />
+
+
+        <Button
+            android:id="@+id/button6"
+            style="@android:style/Widget.DeviceDefault.Button.Inset"
+            android:layout_width="81dp"
+            android:layout_height="52dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:text="停"
+            android:textAllCaps="true"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="472dp"
+            tools:layout_editor_absoluteY="172dp" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/button7"
+                    style="@android:style/Widget.DeviceDefault.Button.Inset"
+                    android:layout_width="10px"
+                    android:layout_height="wrap_content"
+                    android:text="前进"
+                    tools:layout_editor_absoluteX="465dp"
+                    tools:layout_editor_absoluteY="107dp" />
+
+                <Button
+                    android:id="@+id/button"
+                    style="@android:style/Widget.DeviceDefault.Button.Inset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="加速"
+                    tools:layout_editor_absoluteX="465dp"
+                    tools:layout_editor_absoluteY="107dp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/button9"
+                    style="@android:style/Widget.DeviceDefault.Button.Inset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="后退"
+                    tools:layout_editor_absoluteX="465dp"
+                    tools:layout_editor_absoluteY="243dp" />
+
+                <Button
+                    android:id="@+id/button8"
+                    style="@android:style/Widget.DeviceDefault.Button.Inset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="减速"
+                    tools:layout_editor_absoluteX="465dp"
+                    tools:layout_editor_absoluteY="243dp" />
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+
+</TableLayout>

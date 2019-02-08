@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=DGND Pin=JP13-1
+Removed Pin From Net: NetName=3.3V Pin=JP13-2
+Removed Pin From Net: NetName=PB15 Pin=JP13-3
+Removed Pin From Net: NetName=PB14 Pin=JP13-4
+Removed Pin From Net: NetName=PB13 Pin=JP13-5
+Removed Pin From Net: NetName=PA12 Pin=JP13-6
+Removed Pin From Net: NetName=DGND Pin=U2-4
+Removed Pin From Net: NetName=5V Pin=U2-6
+Removed Member From Class: ClassName=car Member=JP13
+Added Pin To Net: NetName=5V Pin=U2-4
+Added Pin To Net: NetName=DGND Pin=U2-6

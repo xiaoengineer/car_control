@@ -1,0 +1,4 @@
+Added Component: Designator=JP13(HDR-1X2)
+Added Pin To Net: NetName=5VS Pin=JP13-1
+Added Pin To Net: NetName=GND Pin=JP13-2
+Added Member To Class: ClassName=car Member=Component JP13 HDR-1X2

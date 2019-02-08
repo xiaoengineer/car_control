@@ -1,0 +1,7 @@
+Added Component: Designator=U2(B0505)
+Added Pin To Net: NetName=5VS Pin=U2-1
+Added Pin To Net: NetName=GND Pin=U2-2
+Added Pin To Net: NetName=5V Pin=U2-4
+Added Pin To Net: NetName=DGND Pin=U2-6
+Added Member To Class: ClassName=car Member=Component U2 B0505
+Added Room: Name=car
